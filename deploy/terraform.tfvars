@@ -5,3 +5,6 @@ bucket_name = "yomins-webpage4"
 common_tags = {
   source = "terraform"
 }
+
+# AWS region to deploy the S3 bucket
+aws_region = "us-east-1"

@@ -1,7 +1,7 @@
 provider "aws" {
+  region = var.aws_region
+
   default_tags {
-    tags = {
-      source = "terraform"
-    }
+    tags = var.common_tags
   }
 }
